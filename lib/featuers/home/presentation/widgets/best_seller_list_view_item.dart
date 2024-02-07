@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../../../constants.dart';
 import '../../../../core/utils/assets.dart';
@@ -12,11 +11,11 @@ class BestSellerListViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 130,
+      height: 135,
       child: Row(
         children: [
           AspectRatio(
-            aspectRatio: 1.9 / 3,
+            aspectRatio: 2 / 3,
             child: Container(
               decoration: const BoxDecoration(
                   image: DecorationImage(
@@ -27,7 +26,7 @@ class BestSellerListViewItem extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            width: 30,
+            width: 20,
           ),
           Expanded(
             child: Column(
