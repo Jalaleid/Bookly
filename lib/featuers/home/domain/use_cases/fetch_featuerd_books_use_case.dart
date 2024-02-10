@@ -2,6 +2,7 @@ import 'package:bookly/featuers/home/domain/repos/home_repo.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../../../core/errors/failure.dart';
+import '../../../../core/use_case/use_case.dart';
 import '../entities/book_entity.dart';
 
 class FetchFeaturedBooksCase extends UseCase<List<BookEntity>, NoParam> {
